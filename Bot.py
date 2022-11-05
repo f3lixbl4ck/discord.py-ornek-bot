@@ -23,6 +23,10 @@ async def on_command_error(ctx, error):
 	if isinstance(error, commands.MissingPermissions):
 		await ctx.send("Bu Komutu Kullanmak İçin Yeterli Yetkiniz Yok")
 
+		@client.event
+async def on_member_join(member):
+	giris_cikis_kanali = client.get_channel(int(os.environ.get("GIRIS_CIKIS_ID")))
+	await giris_cikis_kanali.send(f"{member.mention} Sunucuya Katıldı Hoş Geldin, Rolün Verildi")
 	
 	client.on('ready', () => {
   console.log(`Oto mesaj aktif !`);
