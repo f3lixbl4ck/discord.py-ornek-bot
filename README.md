@@ -28,7 +28,7 @@ Daha Sonra İse Botun Yaptığı Şeyleri Kayıt Altına Alıcağı Kanalın IDs
 
 Ayarlamalarımız Bitti Kurmayaya Geçebiliriz 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NRFPUSPRO/discord.py-ornek-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/f3lixbl4ck/discord.py-ornek-bot
 
 Yukardıdaki Butona Tıklayın 
 
